@@ -11,7 +11,6 @@ export async function POST(req: Request) {
       );
     }
 
-    // Envío directo utilizando la API de Web3Forms
     const res = await fetch('https://api.web3forms.com/submit', {
       method: 'POST',
       headers: {
@@ -19,7 +18,7 @@ export async function POST(req: Request) {
         Accept: 'application/json',
       },
       body: JSON.stringify({
-        access_key: process.env.WEB3FORMS_ACCESS_KEY || '5b3d6f1a-8c2e-4a9b-9c7f-0e1d2c3b4a5e',
+        access_key: 'a942f179-dcc1-480f-9efa-f5ad4e85208a',
         subject: `Nuevo mensaje de contacto en Portafolio - ${name}`,
         from_name: name,
         email: email,
@@ -30,7 +29,7 @@ export async function POST(req: Request) {
 
     const result = await res.json();
 
-    return NextResponse.json({ success: true, result });
+    return NextResponse.json(result);
   } catch (error) {
     console.error('Contact API Error:', error);
     return NextResponse.json(

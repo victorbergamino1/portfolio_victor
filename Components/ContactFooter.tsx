@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import { Mail, Phone, MapPin, Linkedin, Send, CheckCircle2, Loader2 } from 'lucide-react';
+import { Mail, Phone, MapPin, Linkedin, Send, CheckCircle2, Loader2, AlertCircle } from 'lucide-react';
 
 export default function Contact() {
   const { lang } = useLanguage();
@@ -24,6 +24,7 @@ export default function Contact() {
       messagePlaceholder: 'How can I help you?',
       sendBtn: 'Send Message',
       successMsg: 'Thank you! Your message has been sent directly to victorbergamino1@gmail.com.',
+      errorMsgText: 'An error occurred while sending your message. Please try again or email directly.',
       directContact: 'Direct Contact',
       location: 'Jersey City, NJ',
     },
@@ -38,6 +39,7 @@ export default function Contact() {
       messagePlaceholder: '¿En qué puedo ayudarte?',
       sendBtn: 'Enviar Mensaje',
       successMsg: '¡Gracias! Tu mensaje ha sido enviado con éxito a victorbergamino1@gmail.com.',
+      errorMsgText: 'Ocurrió un error al enviar el mensaje. Por favor intenta de nuevo o escribe directamente por correo.',
       directContact: 'Contacto Directo',
       location: 'Jersey City, NJ',
     },
@@ -49,6 +51,7 @@ export default function Contact() {
     e.preventDefault();
     setLoading(true);
     setErrorMsg('');
+    setSubmitted(false);
 
     try {
       const response = await fetch('https://api.web3forms.com/submit', {
@@ -58,7 +61,7 @@ export default function Contact() {
           Accept: 'application/json',
         },
         body: JSON.stringify({
-          access_key: '5b3d6f1a-8c2e-4a9b-9c7f-0e1d2c3b4a5e',
+          access_key: 'a942f179-dcc1-480f-9efa-f5ad4e85208a',
           subject: `Nuevo mensaje de contacto en Portafolio - ${formData.name}`,
           from_name: formData.name,
           email: formData.email,
@@ -74,16 +77,11 @@ export default function Contact() {
         setFormData({ name: '', email: '', message: '' });
         setTimeout(() => setSubmitted(false), 7000);
       } else {
-        // Fallback: report submitted cleanly to user
-        setSubmitted(true);
-        setFormData({ name: '', email: '', message: '' });
-        setTimeout(() => setSubmitted(false), 7000);
+        setErrorMsg(data.message || t.errorMsgText);
       }
     } catch (err) {
-      // Graceful fallback
-      setSubmitted(true);
-      setFormData({ name: '', email: '', message: '' });
-      setTimeout(() => setSubmitted(false), 7000);
+      console.error('Contact Form Error:', err);
+      setErrorMsg(t.errorMsgText);
     } finally {
       setLoading(false);
     }
@@ -181,6 +179,17 @@ export default function Contact() {
             >
               <CheckCircle2 className="w-4 h-4 shrink-0" />
               <span>{t.successMsg}</span>
+            </motion.div>
+          )}
+
+          {errorMsg && (
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              className="p-3.5 rounded-xl bg-red-950/60 border border-red-500/30 text-red-400 text-xs flex items-center gap-2 font-medium text-center"
+            >
+              <AlertCircle className="w-4 h-4 shrink-0" />
+              <span>{errorMsg}</span>
             </motion.div>
           )}
         </motion.form>
