@@ -73,7 +73,7 @@ export default function AiAssistant() {
           className="flex items-center gap-2.5 px-5 py-3.5 rounded-full bg-gradient-to-r from-blue-600 to-indigo-600 text-white font-medium shadow-2xl hover:shadow-blue-500/25 border border-blue-400/30 transition-all text-sm backdrop-blur-md"
         >
           <Bot className="w-5 h-5 animate-pulse" />
-          <span className="hidden sm:inline">Ask Victor's AI</span>
+          <span className="hidden sm:inline">Ask Victor&apos;s AI</span>
           <span className="flex h-2 w-2 relative">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-500"></span>
@@ -98,7 +98,7 @@ export default function AiAssistant() {
                 </div>
                 <div>
                   <h3 className="text-sm font-semibold text-white">
-                    Victor's AI Assistant
+                    Victor&apos;s AI Assistant
                   </h3>
                   <p className="text-xs text-slate-400">
                     {currentLang === 'ES'

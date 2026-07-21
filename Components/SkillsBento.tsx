@@ -213,7 +213,7 @@ export default function SkillsBento() {
               <GraduationCap className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
               <div>
                 <span className="font-semibold text-white block">
-                  Master's Degree, Digital Marketing
+                  Master&apos;s Degree, Digital Marketing
                 </span>
                 <span className="text-neutral-400">
                   CEUPE Business School, Madrid (2020)
@@ -224,7 +224,7 @@ export default function SkillsBento() {
               <GraduationCap className="w-4 h-4 text-amber-400 shrink-0 mt-0.5" />
               <div>
                 <span className="font-semibold text-white block">
-                  Bachelor's Degree, Communications
+                  Bachelor&apos;s Degree, Communications
                 </span>
                 <span className="text-neutral-400">
                   La Sabana University, Colombia (2017)
