@@ -120,8 +120,8 @@ export default function SkillsBento() {
             </h3>
             <p className="text-sm text-neutral-300 leading-relaxed mb-6">
               {lang === 'ES'
-                ? 'Liderazgo de equipos comerciales, gestión de cuentas corporativas clave y diseño de procesos de fidelización de clientes (CSAT).'
-                : 'Cross-functional team leadership, key account management, onboarding, and CSAT retention strategies.'}
+                ? 'Colaboración multifuncional, gestión de cuentas corporativas clave y diseño de procesos de fidelización de clientes (CSAT).'
+                : 'Cross-functional collaboration, key account management, onboarding, and CSAT retention strategies.'}
             </p>
           </div>
           <div className="pt-4 border-t border-neutral-800/60 flex items-center justify-between text-xs text-neutral-400">

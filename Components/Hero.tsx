@@ -11,11 +11,11 @@ export default function Hero() {
     EN: {
       availability: 'Available for Account Management, Customer Success & Marketing Strategy Roles',
       location: 'JERSEY CITY, NJ | BILINGUAL (EN/ES)',
-      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | AI-ASSISTED MARKETING STRATEGY',
+      roleBadge: 'ACCOUNT MANAGER | CUSTOMER SUCCESS MANAGER | B2B SALES',
       title: 'Victor Bergamino',
       subtitle: 'Driving Client Retention & Revenue Growth Through Account Management and AI-Assisted Process Improvement',
       description:
-        'Proven commercial strategist specializing in top-line revenue expansion (+33% YoY), B2B key account retention (93% CSAT), multi-channel performance auditing (+30% ROAS), and custom AI workflow automation.',
+        'Bilingual Account Management and Customer Success professional specializing in client retention (93% CSAT), commercial workflow restructuring (+33% YoY revenue), multi-channel performance auditing (+30% ROAS), and AI-assisted process automation.',
       btnPrimary: 'Book a Call',
       btnSecondary: 'Download Resume (PDF)',
       btnTertiary: 'Explore Impact Metrics',
@@ -23,11 +23,11 @@ export default function Hero() {
     ES: {
       availability: 'Disponible para Roles de Account Management, Customer Success & Estrategia de Marketing',
       location: 'JERSEY CITY, NJ | BILINGÜE (ES/EN)',
-      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | ESTRATEGIA DE MARKETING CON IA',
+      roleBadge: 'ACCOUNT MANAGER | CUSTOMER SUCCESS MANAGER | VENTAS B2B',
       title: 'Victor Bergamino',
       subtitle: 'Impulsando la Retención de Clientes y el Crecimiento de Ingresos mediante Gestión de Cuentas y Optimización con IA',
       description:
-        'Estratega comercial con trayectoria comprobada en aceleración de ventas YoY (+33%), retención de clientes B2B (93% CSAT), optimización de pauta (+30% ROAS) e integración de flujos de automatización con Inteligencia Artificial.',
+        'Profesional bilingüe en Account Management y Customer Success especializado en retención de clientes (93% CSAT), reestructuración de flujos comerciales (+33% crecimiento en ventas YoY), auditoría de pauta multicanal (+30% ROAS) y automatización con IA.',
       btnPrimary: 'Agendar Llamada',
       btnSecondary: 'Descargar CV (PDF)',
       btnTertiary: 'Ver Métricas de Impacto',

@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'Victor Bergamino | Account Manager & Customer Success | AI-Assisted Strategy',
   description:
-    'Bilingual Account Manager & Customer Success professional with AI-assisted workflow automation expertise.',
+    'Bilingual Account Manager & Customer Success Manager with AI-assisted workflow automation expertise.',
 };
 
 export default function RootLayout({
