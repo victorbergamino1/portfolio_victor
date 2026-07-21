@@ -73,8 +73,8 @@ export default function StarCaseStudies() {
         company: 'Clínica Continental',
         location: 'LIMA, PERÚ',
         period: 'MAYO 2019 – ABR 2021',
-        role: 'Líder de Estrategia Comercial & Marketing',
-        summary: 'Coordinación de la ejecución multifuncional de un equipo de 15 personas (ventas, community managers, videógrafos, recepcionistas), contribuyendo a la reestructuración de la estrategia comercial para impulsar un aumento de ventas del 33% YoY.',
+        role: 'Coordinador de Estrategia Comercial & Marketing',
+        summary: 'Implementación de Zoho CRM desde cero y coordinación de un equipo comercial de 15 personas.',
         tag: 'COMMERCIAL STRATEGY & CRM COORDINATION',
         star: {
           situation:
@@ -159,8 +159,8 @@ export default function StarCaseStudies() {
         company: 'Clínica Continental',
         location: 'LIMA, PERU',
         period: 'MAY 2019 – APR 2021',
-        role: 'Marketing & Sales Strategy Lead',
-        summary: 'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists), contributing to a commercial strategy restructuring that drove a 33% YoY sales increase.',
+        role: 'Marketing & Sales Strategy Coordinator',
+        summary: 'Deployed custom Zoho CRM from scratch and coordinated a 15-member commercial team.',
         tag: 'COMMERCIAL STRATEGY & CRM COORDINATION',
         star: {
           situation:
@@ -168,7 +168,7 @@ export default function StarCaseStudies() {
           strategy:
             'Designed and launched a custom Zoho CRM architecture with automated lead scoring and instant lead distribution rules.',
           action: [
-            'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists).',
+            'Coordinated execution across a 15-member multidisciplinary team (sales, community managers, videographers, receptionists), contributing to a commercial strategy restructuring that drove a 33% YoY sales increase.',
             'Optimized lead conversion rates across digital and phone channels.',
             'Trained key medical spokespeople for high-visibility PR and media campaigns.',
           ],
@@ -187,7 +187,7 @@ export default function StarCaseStudies() {
         company: 'Increnta',
         location: 'BOGOTÁ, COLOMBIA',
         period: 'APR 2018 – APR 2019',
-        role: 'Digital Strategist & B2B Account Executive',
+        role: 'Digital Strategist & Account Executive',
         summary: 'Managed corporate B2B portfolios in regulated sectors (Finance, Tech, Healthcare).',
         tag: 'PERFORMANCE MARKETING & ROAS LIFT',
         star: {

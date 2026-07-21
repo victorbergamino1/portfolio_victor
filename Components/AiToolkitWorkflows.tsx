@@ -28,8 +28,8 @@ export default function AiToolkitWorkflows() {
       category: lang === 'ES' ? 'Investigación Profunda, Analítica & Multimodal' : 'Deep Research, Analytics & Multi-Modal',
     },
     {
-      name: 'Nano Banana 2 & Canva AI',
-      category: lang === 'ES' ? 'Iteración Rápida de Contenido & Recursos Creativos' : 'Rapid Content Iteration & Creative Assets',
+      name: 'Gemini Nano Banana Image Model & Canva AI',
+      category: lang === 'ES' ? 'Generación Multimodal de Imágenes & Recursos Creativos' : 'Multi-Modal Image Generation & Creative Assets',
     },
     {
       name: 'Prompt Engineering',

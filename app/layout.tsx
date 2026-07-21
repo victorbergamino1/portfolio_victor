@@ -2,14 +2,20 @@ import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 import { LanguageProvider } from '../context/LanguageContext';
 import Navbar from '../Components/Navbar';
-import './globals.css'; // <-- Corregido: está dentro de la misma carpeta /app
+import './globals.css';
 
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Victor Bergamino | Account Manager & Customer Success | AI-Assisted Strategy',
+  title: 'Victor Bergamino | Account Management, Customer Success & B2B Sales',
   description:
-    'Bilingual Account Manager & Customer Success Manager with AI-assisted workflow automation expertise.',
+    'Bilingual Account Management, Customer Success & B2B Sales professional with AI-augmented workflow expertise.',
+  openGraph: {
+    title: 'Victor Bergamino | Account Management, Customer Success & B2B Sales',
+    description:
+      'Bilingual Account Management, Customer Success & B2B Sales professional with AI-augmented workflow expertise.',
+    type: 'website',
+  },
 };
 
 export default function RootLayout({

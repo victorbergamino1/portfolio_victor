@@ -32,7 +32,7 @@ export default function Experience() {
           company: 'Clínica Continental',
           location: 'LIMA, PERU',
           period: 'MAY 2019 – APR 2021',
-          title: 'Marketing & Sales Strategy Lead',
+          title: 'Marketing & Sales Strategy Coordinator',
           description:
             'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists), contributing to a commercial strategy restructuring that drove a 33% YoY sales increase.',
           stats: [
@@ -79,9 +79,9 @@ export default function Experience() {
           company: 'Clínica Continental',
           location: 'LIMA, PERÚ',
           period: 'MAYO 2019 – ABR 2021',
-          title: 'Líder de Estrategia Comercial y Marketing',
+          title: 'Coordinador de Estrategia Comercial y Marketing',
           description:
-            'Dirección de un equipo multidisciplinario de 15 personas e implementación desde cero de Zoho CRM. Reestructuración de canales de venta, entrenamiento de voceros para medios masivos y optimización del embudo comercial.',
+            'Coordinación de la ejecución multifuncional de un equipo de 15 personas (ventas, community managers, videógrafos, recepcionistas), contribuyendo a la reestructuración de la estrategia comercial para impulsar un aumento de ventas del 33% YoY.',
           stats: [
             { value: '+33%', label: 'Crecimiento de Ventas YoY' },
             { value: '30%', label: 'Respuesta más Rápida a Leads' },
@@ -92,7 +92,7 @@ export default function Experience() {
           company: 'Increnta',
           location: 'BOGOTÁ, COLOMBIA',
           period: 'ABR 2018 – ABR 2019',
-          title: 'Estratega Digital y Ejecutivo de Cuentas B2B',
+          title: 'Estratega Digital y Ejecutivo de Cuentas',
           description:
             'Gestión de cuentas corporativas en sectores regulados (Banca, Finanzas, Salud y Tecnología). Análisis de métricas multicanal, presentación de informes ejecutivos y optimización de pauta para maximizar el retorno de inversión.',
           stats: [

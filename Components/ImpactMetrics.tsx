@@ -18,17 +18,18 @@ interface MetricProps {
 function CounterCard({ value, prefix = '', suffix = '', label, sublabel, icon, color }: MetricProps) {
   const ref = useRef<HTMLDivElement>(null);
   const isInView = useInView(ref, { once: true, margin: '-50px' });
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(value);
 
   useEffect(() => {
     if (!isInView) return;
 
-    let start = 0;
+    let frame = 0;
     const end = value;
-    const duration = 1500;
+    const duration = 1200;
     const frameTime = 1000 / 60;
     const totalFrames = Math.round(duration / frameTime);
-    let frame = 0;
+
+    setCount(0);
 
     const timer = setInterval(() => {
       frame++;

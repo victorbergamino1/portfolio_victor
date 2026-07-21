@@ -9,25 +9,25 @@ export default function Hero() {
 
   const heroContent = {
     EN: {
-      availability: 'Available for Account Management, Customer Success & Marketing Strategy Roles',
+      availability: 'Available for Account Management, Customer Success & B2B Sales roles',
       location: 'JERSEY CITY, NJ | BILINGUAL (EN/ES)',
-      roleBadge: 'ACCOUNT MANAGER | CUSTOMER SUCCESS MANAGER | B2B SALES',
+      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | B2B SALES',
       title: 'Victor Bergamino',
-      subtitle: 'Driving Client Retention & Revenue Growth Through Account Management and AI-Assisted Process Improvement',
+      subtitle: 'Driving Client Retention & Revenue Growth Through Consultative Account Management',
       description:
-        'Bilingual Account Management and Customer Success professional specializing in client retention (93% CSAT), commercial workflow restructuring (+33% YoY revenue), multi-channel performance auditing (+30% ROAS), and AI-assisted process automation.',
+        'Proven Account Management & Customer Success professional specializing in client retention (93% CSAT), revenue growth (+33% YoY), and AI-augmented CRM workflows.',
       btnPrimary: 'Book a Call',
       btnSecondary: 'Download Resume (PDF)',
       btnTertiary: 'Explore Impact Metrics',
     },
     ES: {
-      availability: 'Disponible para Roles de Account Management, Customer Success & Estrategia de Marketing',
+      availability: 'Disponible para Roles de Account Management, Customer Success & Ventas B2B',
       location: 'JERSEY CITY, NJ | BILINGÜE (ES/EN)',
-      roleBadge: 'ACCOUNT MANAGER | CUSTOMER SUCCESS MANAGER | VENTAS B2B',
+      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | VENTAS B2B',
       title: 'Victor Bergamino',
-      subtitle: 'Impulsando la Retención de Clientes y el Crecimiento de Ingresos mediante Gestión de Cuentas y Optimización con IA',
+      subtitle: 'Impulsando la Retención de Clientes y el Crecimiento de Ingresos mediante Gestión Consultiva de Cuentas',
       description:
-        'Profesional bilingüe en Account Management y Customer Success especializado en retención de clientes (93% CSAT), reestructuración de flujos comerciales (+33% crecimiento en ventas YoY), auditoría de pauta multicanal (+30% ROAS) y automatización con IA.',
+        'Profesional experimentado en Account Management y Customer Success especializado en retención de clientes (93% CSAT), crecimiento en ingresos (+33% YoY) y flujos CRM impulsados por IA.',
       btnPrimary: 'Agendar Llamada',
       btnSecondary: 'Descargar CV (PDF)',
       btnTertiary: 'Ver Métricas de Impacto',
