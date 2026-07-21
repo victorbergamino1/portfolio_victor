@@ -9,11 +9,11 @@ export default function Hero() {
 
   const heroContent = {
     EN: {
-      availability: 'Available for Growth & AI Advisory / Full-time Leadership Roles',
+      availability: 'Available for Account Management, Customer Success & Marketing Strategy Roles',
       location: 'JERSEY CITY, NJ | BILINGUAL (EN/ES)',
-      roleBadge: 'GROWTH STRATEGY & AI INTEGRATION LEAD',
+      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | AI-ASSISTED MARKETING STRATEGY',
       title: 'Victor Bergamino',
-      subtitle: 'Driving Revenue Growth & Scaling Commercial Operations with Generative AI',
+      subtitle: 'Driving Client Retention & Revenue Growth Through Account Management and AI-Assisted Process Improvement',
       description:
         'Proven commercial strategist specializing in top-line revenue expansion (+33% YoY), B2B key account retention (93% CSAT), multi-channel performance auditing (+30% ROAS), and custom AI workflow automation.',
       btnPrimary: 'Book a Call',
@@ -21,11 +21,11 @@ export default function Hero() {
       btnTertiary: 'Explore Impact Metrics',
     },
     ES: {
-      availability: 'Disponible para Asesoría en Growth & IA / Roles de Liderazgo',
+      availability: 'Disponible para Roles de Account Management, Customer Success & Estrategia de Marketing',
       location: 'JERSEY CITY, NJ | BILINGÜE (ES/EN)',
-      roleBadge: 'GROWTH STRATEGY & AI INTEGRATION LEAD',
+      roleBadge: 'ACCOUNT MANAGEMENT | CUSTOMER SUCCESS | ESTRATEGIA DE MARKETING CON IA',
       title: 'Victor Bergamino',
-      subtitle: 'Impulsando Crecimiento de Ingresos & Escalando Operaciones Comerciales con IA',
+      subtitle: 'Impulsando la Retención de Clientes y el Crecimiento de Ingresos mediante Gestión de Cuentas y Optimización con IA',
       description:
         'Estratega comercial con trayectoria comprobada en aceleración de ventas YoY (+33%), retención de clientes B2B (93% CSAT), optimización de pauta (+30% ROAS) e integración de flujos de automatización con Inteligencia Artificial.',
       btnPrimary: 'Agendar Llamada',

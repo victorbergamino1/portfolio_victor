@@ -7,9 +7,9 @@ import './globals.css'; // <-- Corregido: está dentro de la misma carpeta /app
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Victor Bergamino | Growth Strategy & AI Integration',
+  title: 'Victor Bergamino | Account Manager & Customer Success | AI-Assisted Strategy',
   description:
-    'Bilingual Growth Strategist, Account Manager, and AI Integration Specialist.',
+    'Bilingual Account Manager & Customer Success professional with AI-assisted workflow automation expertise.',
 };
 
 export default function RootLayout({

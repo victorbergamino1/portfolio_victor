@@ -34,7 +34,7 @@ export default function Experience() {
           period: 'MAY 2019 – APR 2021',
           title: 'Marketing & Sales Strategy Lead',
           description:
-            'Directed a 15-member multidisciplinary commercial team and deployed a custom Zoho CRM pipeline from scratch. Restructured sales workflows, coached professionals for PR/media campaigns, and drove significant YoY revenue growth.',
+            'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists), contributing to a commercial strategy restructuring that drove a 33% YoY sales increase.',
           stats: [
             { value: '+33%', label: 'YoY Sales Increase' },
             { value: '30%', label: 'Faster Lead Response Time' },

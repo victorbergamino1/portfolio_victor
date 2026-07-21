@@ -74,15 +74,15 @@ export default function StarCaseStudies() {
         location: 'LIMA, PERÚ',
         period: 'MAYO 2019 – ABR 2021',
         role: 'Líder de Estrategia Comercial & Marketing',
-        summary: 'Implementación de Zoho CRM desde cero y dirección de equipo comercial de 15 personas.',
-        tag: 'COMMERCIAL RESTRUCTURING & CRM',
+        summary: 'Coordinación de la ejecución multifuncional de un equipo de 15 personas (ventas, community managers, videógrafos, recepcionistas), contribuyendo a la reestructuración de la estrategia comercial para impulsar un aumento de ventas del 33% YoY.',
+        tag: 'COMMERCIAL STRATEGY & CRM COORDINATION',
         star: {
           situation:
             'El equipo comercial de 15 personas operaba sin un CRM centralizado, resultando en lentitud en el seguimiento de prospectos y falta de visibilidad del embudo de conversión.',
           strategy:
             'Diseño e implementación integral de Zoho CRM con reglas de puntuación de leads (Lead Scoring) y flujos automáticos de asignación comercial.',
           action: [
-            'Capacitación y liderazgo directo del equipo comercial de 15 integrantes.',
+            'Coordinación de la ejecución multifuncional de un equipo de 15 integrantes.',
             'Optimización de la tasa de conversión en los canales digitales y telefónicos.',
             'Entrenamiento de voceros profesionales para campañas mediáticas y de PR de alto impacto.',
           ],
@@ -160,15 +160,15 @@ export default function StarCaseStudies() {
         location: 'LIMA, PERU',
         period: 'MAY 2019 – APR 2021',
         role: 'Marketing & Sales Strategy Lead',
-        summary: 'Deployed custom Zoho CRM from scratch and led a 15-member commercial team.',
-        tag: 'COMMERCIAL RESTRUCTURING & CRM',
+        summary: 'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists), contributing to a commercial strategy restructuring that drove a 33% YoY sales increase.',
+        tag: 'COMMERCIAL STRATEGY & CRM COORDINATION',
         star: {
           situation:
             'A 15-member sales team lacked a centralized CRM platform, leading to delayed lead follow-ups and uncoordinated conversion funnels.',
           strategy:
             'Designed and launched a custom Zoho CRM architecture with automated lead scoring and instant lead distribution rules.',
           action: [
-            'Coached and directly managed the 15-member commercial and tele-sales team.',
+            'Coordinated cross-functional execution across a 15-member team (sales, community managers, videographers, receptionists).',
             'Optimized lead conversion rates across digital and phone channels.',
             'Trained key medical spokespeople for high-visibility PR and media campaigns.',
           ],
