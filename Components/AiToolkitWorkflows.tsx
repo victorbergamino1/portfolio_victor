@@ -20,28 +20,28 @@ export default function AiToolkitWorkflows() {
 
   const aiStack = [
     {
-      name: 'ChatGPT Plus (GPT-4o)',
-      category: lang === 'ES' ? 'Razonamiento Estratégico & Copy' : 'Strategic Reasoning & Copy',
+      name: 'ChatGPT & Claude 3.5',
+      category: lang === 'ES' ? 'Razonamiento Estratégico, Copywriting & Código' : 'Strategic Reasoning, Copywriting & Code',
     },
     {
-      name: 'Claude 3.5 Sonnet',
-      category: lang === 'ES' ? 'Análisis de Largo Contexto' : 'Long-Context Analysis & Code',
+      name: 'Gemini Pro & Perplexity',
+      category: lang === 'ES' ? 'Investigación Profunda, Analítica & Multimodal' : 'Deep Research, Analytics & Multi-Modal',
     },
     {
-      name: 'Gemini Advanced',
-      category: lang === 'ES' ? 'Investigación & Multimodalidad' : 'Multi-Modal & Research',
+      name: 'Nano Banana 2 & Canva AI',
+      category: lang === 'ES' ? 'Iteración Rápida de Contenido & Recursos Creativos' : 'Rapid Content Iteration & Creative Assets',
     },
     {
       name: 'Prompt Engineering',
-      category: lang === 'ES' ? 'Prompts Complejos & Agentes' : 'Chain-of-Thought & System Prompts',
+      category: lang === 'ES' ? 'Pensamiento en Cadena & Arquitectura de Prompts' : 'Chain-of-Thought & System Architecture',
     },
     {
-      name: 'Make.com & Zapier',
-      category: lang === 'ES' ? 'Automatización CRM & APIs' : 'CRM & API Workflow Automation',
+      name: 'Vercel & StackBlitz',
+      category: lang === 'ES' ? 'Prototipado con IA & Despliegue en la Nube' : 'AI-Assisted Prototyping & Cloud Deployment',
     },
     {
       name: 'Custom AI Agents',
-      category: lang === 'ES' ? 'Cualificación & Bots de Ventas' : 'Client Qualification & Sales Bots',
+      category: lang === 'ES' ? 'Flujos Integrados & Automatización Interactiva' : 'Integrated Workflows & Interactive Automation',
     },
   ];
 
